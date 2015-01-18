@@ -7,6 +7,8 @@ I need NMEA data dump of GPS/GLONASS receiver which receive signals from GLONASS
 
 In this NMEA logs must be include $GPGSV strings. Because I analyze levels of satellites signal and try to detect «spoofing».
 
+If investigations with experemental NMEA data will be pasted, the project will have future.
+
 So I`am interesting in community help.
 #Algoritm
 Algoritm is build on some tests:
@@ -17,6 +19,18 @@ Algoritm is build on some tests:
 
 3. Compare integrated Sensors values with recieved GPS/GLONASS Signal. For example: speed sensors, move sensors and so on.
 
-4. May be something else wil be find during expirements or .
+Something else can be found through experience or to offer the community
+
 #Software implementation
 C language.
+
+#Related works
+Andrew J. Kerns «Unmanned Aircraft Capture and Control via GPS Spoofing»
+http://radionavlab.ae.utexas.edu/images/stories/files/papers/unmannedCapture.pdf
+
+Aleksandar Jovanovic, Cyril Botteron, Pierre-Andre Fariné «Multi-test Detection and Protection Algorithm Against Spoofing Attacks on GNSS Receivers»
+http://infoscience.epfl.ch/record/199530/files/ION_PLANS2014_AJovanovic_Published.pdf
+
+ [Unmanned Aircraft Capture and Control via GPS Spoofing]: http://radionavlab.ae.utexas.edu/images/stories/files/papers/unmannedCapture.pdf
+ 
+
