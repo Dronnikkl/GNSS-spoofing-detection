@@ -18,4 +18,5 @@ Algoritm is build on some tests:
 3. Compare integrated Sensors values with recieved GPS/GLONASS Signal. For example: speed sensors, move sensors and so on.
 
 4. May be something else wil be find during expirements or .
-
+#Software implementation
+C language.
