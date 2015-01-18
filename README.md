@@ -10,15 +10,16 @@ In this NMEA logs must be include $GPGSV strings. Because I analyze levels of sa
 If investigations with experemental NMEA data will be pasted, the project will have future.
 
 So I`am interesting in community help.
-#Algoritm
-> Algoritm is build on some tests:
+#Algorithm
+> Algorithm build on some tests:
 > 
->  1. Detect high Level of statelities signal level (C/N0).
+>  1. Detect high level of statelities signal level (C/N0).
 >  2. Detect high level of signal Doppler offset.
 >  3. Compare integrated Sensors values with recieved GPS/GLONASS Signal.  For example: 
 > - speed sensors
 > - move sensors
 > - CAN bus
+> - angle sensors
 
 **Something else can be found through experience or to offer the community**
 
