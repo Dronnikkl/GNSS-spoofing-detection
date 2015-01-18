@@ -7,8 +7,6 @@ I need NMEA data dump of GPS/GLONASS receiver which receive signals from GLONASS
 
 In this NMEA logs must be include $GPGSV strings. Because I analyze levels of satellites signal and try to detect «spoofing».
 
-http://stackoverflow.com/questions/28001975/where-i-can-get-nmea-data-dump-of-glonass-or-gps-simulator?noredirect=1#comment44408851_28001975
-
 I have GPS Receiver, and have experience to dump NMEA from it, so I have Real signal. But i have not dumps of spoofed signal which my GPS receiver can get from GPS simulator which generate spoofed signals, so I can't make charts and software test. In one of related works discussed that if we have C/N0 values of spoofed signal we can detect spoofing. In NMEA specification C/N0 is SNR value of satellite. Maybe I can generate spoofed signal programatticaly, but I think it will not be a clean experiment.
 
 If investigations with experemental NMEA data will be pasted, the project will have future.
