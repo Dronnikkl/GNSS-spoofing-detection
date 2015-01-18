@@ -2,20 +2,20 @@
 GNSS Spoofing detection System
 
 This Open Source project about detection of «spoofing» GPS and GLONASS  signals which can be recieved by GPS/GLONASS simulators. 
-#What need to Start
+#What need to start
 I need NMEA data dump of GPS/GLONASS receiver which receive signals from GLONASS or GPS simulator.
 
-In this NMEA logs which include $GPGSV strings. Because I analyze levels of satellites signal and try to detect «spoofing».
+In this NMEA logs must be include $GPGSV strings. Because I analyze levels of satellites signal and try to detect «spoofing».
 
-So I`am interested in community help.
+So I`am interesting in community help.
 #Algoritm
 Algoritm is build on some tests:
 
 1. Detect high Level of statelities signal level (C/N0).
 
-2. Detect high level of  signal Doppler offset.
+2. Detect high level of signal Doppler offset.
 
-3. Compare integrated Sensors values with rcieved GPS/GLONASS Signal. For example: speed sensors, move sensors and so on.
+3. Compare integrated Sensors values with recieved GPS/GLONASS Signal. For example: speed sensors, move sensors and so on.
 
-4. May be something else can be found or detected with expirements.
+4. May be something else we be find or detected  expirements.
 
