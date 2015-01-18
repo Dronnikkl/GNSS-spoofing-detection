@@ -13,8 +13,8 @@ So I`am interesting in community help.
 #Algorithm
 > Algorithm build on some tests:
 > 
->  1. Detect high level of statelities signal level (C/N0).
->  2. Detect high level of signal Doppler offset.
+>  1. Detecting high level of statelities signal level (C/N0).
+>  2. Detecting high level of signal Doppler offset.
 >  3. Compare integrated Sensors values with recieved GPS/GLONASS Signal.  For example: 
 > - speed sensors
 > - move sensors
